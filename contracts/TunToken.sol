@@ -2,7 +2,7 @@
 
 pragma solidity 0.6.12;
 
-import "./libs/BEP20.sol";
+import "https://github.com/cucumberfinance/rick-contracts/blob/master/contracts/libs/BEP20.sol";
 
 // EggToken with Governance.
 contract TriangleSunToken is BEP20('TriangleSun', 'TUN') {
